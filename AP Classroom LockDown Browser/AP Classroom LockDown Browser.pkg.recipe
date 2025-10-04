@@ -98,8 +98,6 @@
                   <string>%RECIPE_CACHE_DIR%</string>
                   <key>id</key>
                   <string>org.collegeboard.LockDownBrowserOEM.pkg</string>
-                  <key>options</key>
-                  <string>purge_ds_store</string>
                   <key>version</key>
                   <string>%version%</string>
                 </dict>
