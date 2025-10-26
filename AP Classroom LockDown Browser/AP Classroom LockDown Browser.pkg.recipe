@@ -88,8 +88,6 @@
             <string>PkgCreator</string>
             <key>Arguments</key>
             <dict>
-                <key>pkgname</key>
-                <string>%NAME%-%version%</string>
                 <key>pkg_request</key>
                 <dict>
                   <key>pkgroot</key>
@@ -100,6 +98,8 @@
                   <string>org.collegeboard.LockDownBrowserOEM.pkg</string>
                   <key>options</key>
                   <string>purge_ds_store</string>
+                  <key>pkgname</key>
+                  <string>%NAME%-%version%</string>
                   <key>version</key>
                   <string>%version%</string>
                 </dict>
